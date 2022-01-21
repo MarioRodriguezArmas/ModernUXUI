@@ -1,0 +1,53 @@
+.container {
+  color: #fff;
+  width: 60vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: turquoise;
+}
+
+.container p {
+  font-size: 3vw;
+}
+
+.lg {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle {
+  background-color: rgb(8, 8, 8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+
+.links-pop p {
+  font-size: 24px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+ 
+}
+
+@media screen and (min-width: 700px) {
+  .toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lg {
+    display: none;
+  }
+}
